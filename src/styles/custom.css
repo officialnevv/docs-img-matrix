@@ -54,3 +54,11 @@ body {
 .sl-markdown-content iframe { width: 100%; aspect-ratio: 16 / 9; border: 1px solid #1a1a1a; border-radius: 12px; }
 .sl-markdown-content img { border-radius: 12px; }
 
+
+/* Polish */
+:root { --sl-text: #e2e2e2; }
+body { font-smoothing: antialiased; }
+.sl-markdown-content { padding: 2rem; }
+.sl-markdown-content h1, .sl-markdown-content h2 { font-weight: 600; letter-spacing: -0.02em; }
+.sl-markdown-content code { border-radius: 8px; }
+
