@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600;700;800&display=swap');
 
 :root {
   --sl-color-bg: #030303;
@@ -13,11 +13,11 @@
   --sl-color-gray-4: #2b2b2b;
   --sl-color-gray-5: #1a1a1a;
   --sl-color-gray-6: #141414;
-  --sl-font: 'Outfit', system-ui, sans-serif;
+  --sl-font: 'Google Sans Flex', system-ui, sans-serif;
   --sl-font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
 
-:root[lang='ar'] { --sl-font: 'Cairo', 'Outfit', sans-serif; }
+:root[lang='ar'] { --sl-font: 'Cairo', 'Google Sans Flex', sans-serif; }
 
 html { color-scheme: dark; }
 
