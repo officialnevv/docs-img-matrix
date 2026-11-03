@@ -49,3 +49,8 @@ body {
 .sl-markdown-content p { margin-bottom: 1.25rem; }
 .sl-markdown-content pre { border-radius: 12px; padding: 1rem; }
 
+
+/* Embeds */
+.sl-markdown-content iframe { width: 100%; aspect-ratio: 16 / 9; border: 1px solid #1a1a1a; border-radius: 12px; }
+.sl-markdown-content img { border-radius: 12px; }
+
