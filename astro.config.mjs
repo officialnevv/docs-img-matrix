@@ -14,15 +14,18 @@ export default defineConfig({
 				ar: { label: 'العربية', lang: 'ar', dir: 'rtl' },
 			},
 			sidebar: [
-				{
-					label: 'Test',
-					translations: { ar: 'اختبار' },
-					items: [
-						{ slug: 'test-math' },
-					],
-				},
-			],
-			customCss: [
+      {
+        label: 'Start here',
+        translations: { ar: 'ابدأ من هنا' },
+        items: [{ autogenerate: { directory: '01-start' } }],
+      },
+      {
+        label: 'Images are matrices',
+        translations: { ar: 'الصور مصفوفات' },
+        items: [{ autogenerate: { directory: '02-images-are-matrices' } }],
+      },
+    ],
+    customCss: [
 				'@fontsource/cairo/400.css',
 				'@fontsource/cairo/700.css',
 				'./src/styles/custom.css',

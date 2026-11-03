@@ -1,2 +1,3 @@
 :root[lang='ar'] { --sl-font: 'Cairo', sans-serif; }
 .katex, .katex-display, pre, code { direction: ltr; unicode-bidi: isolate; }
+kbd { direction: ltr; unicode-bidi: isolate; }
