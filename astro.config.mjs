@@ -34,4 +34,5 @@ export default defineConfig({
 		remarkPlugins: [remarkMath],
 		rehypePlugins: [rehypeKatex],
 	},
+	redirects: { '/': '/en/' },
 });
