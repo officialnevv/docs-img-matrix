@@ -1,3 +1,29 @@
-:root[lang='ar'] { --sl-font: 'Cairo', sans-serif; }
-.katex, .katex-display, pre, code { direction: ltr; unicode-bidi: isolate; }
-kbd { direction: ltr; unicode-bidi: isolate; }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --sl-color-bg: #030303;
+  --sl-color-bg-nav: #050505;
+  --sl-color-bg-sidebar: #030303;
+  --sl-color-hairline: #1a1a1a;
+  --sl-color-text: #f3f3f3;
+  --sl-color-text-accent: #f3f3f3;
+  --sl-color-gray-1: #f3f3f3;
+  --sl-color-gray-2: #adadad;
+  --sl-color-gray-3: #878787;
+  --sl-color-gray-4: #2b2b2b;
+  --sl-color-gray-5: #1a1a1a;
+  --sl-color-gray-6: #141414;
+  --sl-font: 'Outfit', system-ui, sans-serif;
+  --sl-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+:root[lang='ar'] { --sl-font: 'Cairo', 'Outfit', sans-serif; }
+
+html { color-scheme: dark; }
+
+body {
+  background: #030303;
+  background-image: radial-gradient(ellipse at top, #121212 0%, #030303 260px);
+}
+
+.katex, .katex-display, pre, code, kbd { direction: ltr; unicode-bidi: isolate; }
